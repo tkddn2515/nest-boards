@@ -1,5 +1,4 @@
 import { Module } from '@nestjs/common';
-import { TypeOrmModule } from '@nestjs/typeorm';
 import { TypeOrmExModule } from 'src/database/typeorm-ex.module';
 import { BoardRepository } from './board.repository';
 import { BoardsController } from './boards.controller';
